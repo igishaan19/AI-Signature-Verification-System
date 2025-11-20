@@ -1,62 +1,53 @@
-.container {
-    margin-top: 20px;
-    background-color: rgb(197, 212, 227);
-    height: 680px;
+body {
+    font-family: 'Inter', sans-serif;
 }
 
-.logo-img {
-    height: 80px;
-    /* border-radius: 50%; */
-    float: right;
+.main-wrapper {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.header-logo {
+    height: 75px;
+    border-radius: 12px;
+}
+
+.brand-title {
+    font-size: 32px;
     margin-top: 10px;
+    font-weight: 700;
 }
 
-.logo {
-    padding-top:10px;
-    align-items: center;
-    text-align: center;
+.brand-subtitle {
+    color: #666;
+    margin-top: -5px;
+    font-size: 15px;
 }
 
-.col-box {
-    text-align: center;
-    height: 560px;
-    margin: 30px 20px;
-    padding: 20px 10px;
-    background-color:rgb(165, 181, 197);
+.ui-card {
+    padding: 30px;
+    border-radius: 16px;
+    background: #fff;
 }
 
-.list_item {
-    margin-top: 100px;
-    text-decoration: none;
-    text-align: center;
-    color: black;
+.result-badge {
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
-.upload-btn {
-    margin: 50px 30px 10px 30px;
+/* Result Colors */
+.genuine {
+    background: #d1f7da;
+    color: #0f8b3a;
+    border: 1px solid #9ee8b2;
 }
 
-
-.loader {
-    margin: 0 30px 10px 30px;
-    /* width: 120px; */
-    /* display: flex;
-    flex-direction: row; */
-}
-
-.reupload-btn {
-    margin: 0 30px 10px 30px;
-    /* width: 120px; */
-    display: flex;
-    flex-direction: row-reverse;
-
-}
-
-.nav-btn {
-    margin: 1.5%;
-}
-
-
-.output-btn {
-    margin-bottom: 20px;
+.forged {
+    background: #ffe2e2;
+    color: #b10000;
+    border: 1px solid #ffb3b3;
 }
